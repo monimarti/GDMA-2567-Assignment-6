@@ -84,7 +84,29 @@
 
 /*  NAVIGAION  */
 
+#four-day {
+	background-image: url("../img/beach-front.jpg");
+}
 
+#three-day {
+	background-image: url("../img/surfer-in-action.jpg");
+}
+
+#two-day {
+	background-image: url("../img/surfers-walking.jpg");
+}
+
+#half-day {
+	background-image: url("../img/girl-laughing-waves.jpg");
+}
+
+.lesson-images {
+	width: 100%;
+	padding: 20px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 /*--------------------------------------------------------------
 7.0 - Utilities -- CLASS SELECTOR THAT DOES 1 THING APPLIED TO ANY ELEMENT INSTEAD OF GROUPING THINGS --
 -------------------------------------------------------------- */
