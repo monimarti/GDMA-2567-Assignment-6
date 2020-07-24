@@ -75,7 +75,19 @@
 
 /*  LAYOUT  */ /*-- MARGIN PADDING --*/
 
+.bg-black {
+	background-color: #000;
+	color: #fff;
+}
 
+#hero-image {
+	background-image: url("../img/hero-surfer-legs.jpg");
+	width: 100%;
+	padding: 20px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 
 
 /*  BUTTON  */
