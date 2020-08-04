@@ -41,6 +41,10 @@
 3.0 - Generic 
 -------------------------------------------------------------- */
 
+* {
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+}
 
 /*--------------------------------------------------------------
 4.0 - Elements 
@@ -49,12 +53,22 @@
 /*  TYPOGRAPHY  */
 
 
+
 /*  HEADLINES  */
 
+h1, h2, h3 {
+	font-family: abolition, sans-serif;
+}
 
 /*  NAVIGATION  */
 
+span {
+	display: none;
+}
 
+footer nav {
+	text-align: right;
+}
 
 /*  BODY  */
 
@@ -71,7 +85,9 @@
  
 /*  TYPOGRAPHY  */ /*-- FONT SIZE LINE HEIGHT WEIGHT COLOR --*/
 
-
+.centered-text {
+	text-align: center;
+}
 
 /*  LAYOUT  */ /*-- MARGIN PADDING --*/
 
@@ -88,6 +104,7 @@
 	background-position: center;
 	background-size: cover;
 }
+
 
 
 /*  BUTTON  */
@@ -112,6 +129,10 @@
 	background-image: url("../img/girl-laughing-waves.jpg");
 }
 
+#included-image {
+	background: url("../img/water-cliff.jpg")
+}
+
 .lesson-images {
 	width: 100%;
 	padding: 20px 30px;
@@ -125,7 +146,9 @@
 
 /*  COLOR  */
 
-
+.text-white {
+	color: #fff;
+}
 
 
 
