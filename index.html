@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Wo rk+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/normalize.css" >
 <link rel="stylesheet" type="text/css" href="css/framework.css">
@@ -28,7 +28,7 @@
 				<ul>
 					<li><a href="#lessons">our lessons</a></li>
 					<li><a href="#about">about</a></li>
-					<li><a href="#contact">contact</a></li>
+					<li><a href="#contact-form">contact</a></li>
 				</ul>	
 			</nav>
 		
@@ -37,7 +37,7 @@
 			<div class="col-sm-12 col-md-10 col-lg-6">
 				<p>Our mission is to cultivate a love and respect for the ocean by building confidence, developing character and inspiring stoke through safety, fun and learning.</p>
 			
-				<p><a href="#lessons">sign up now!</a></p>
+				<p><a href="#lessons" class="white-bttn">sign up now!</a></p>
 				</div>
 			</div>
 			
@@ -58,61 +58,60 @@
 			<section>
 				<div class="row">
 					<div class="col-sm-12 col-lg-6">
-						<img src="img/surfing-areal.jpg" alt="" class="img-responsive">
+						<img src="img/surfing-areal.jpg" alt="" class="img-responsive shadow-pop-tr">
 					</div>
 					<div class="col-sm-12 col-lg-6">
 						<header>
-							<p>most popular</p>
-							<h3>5 day deluxe package &emdash; $320 </h3>
+							<h3>5 day deluxe package - $320 <span> most popular </span></h3>
 							<p>- 5 x 4 hour surf safari (From Pick up to drop off)</p>
 							<p>- 1 x 2.5 hour PRIVATE LESSON (From Pick up to drop off).</p>
 						</header>
 						<p>Each lesson is different and the course is packed with content.</p>
 						<p>Learn outback surfing techniques (showing you how to sit up and spin your board prior to paddling for a wave).</p>
 						<p>Experiment with riding different surfboards and possibly hardboards.</p>
-						<p><a href="#">choose!</a></p>
+						<p><a href="#" class="blk-bttn">select lesson</a></p>
 					</div>
 				</div>
 			</section>
 			
 			
 			<section class="col-sm-12 col-md-6 col-lg-3">
-				<header id="four-day" class="lesson-images text-white">
+				<header id="four-day" class="lesson-images text-white shadow-pop-tr">
 					<h3>4 DAY EPIC SURF EXPERIENCE - $185</h3>
 					<p>- 4 x 4 hour surf safari (from pick up to drop off)</p>
 				</header>
 				<p>S-turns (This is doing multiple turns on one wave) and surfing with Flow!</p>
 				<p>We aim to start catching unbroken waves if the conditions on the day allow.</p>
-				<p><a href="#">choose!</a></p>
+				<p><a href="#" class="blk-bttn">select lesson</a></p>
 			</section>
 			
 			<section class="col-sm-12 col-md-6 col-lg-3">
-				<header id="three-day" class="lesson-images text-white">
+				<header id="three-day" class="lesson-images text-white shadow-pop-tr">
 					<h3>3 DAY ULTIMATE WAVE RIDER - $155</h3>
 					<p>- 3 x 4 hour surf safari (from pick up to drop off)</p>
 				</header>
 				<p>Different locations. Fun technical course. Lots of time to show a wide range of techniques and lots of water time.</p>
 				<p>Improve paddling technique and timing, Pop up technique, stance and work on slowing and speeding up. Introduce Frontside turn and a Backside turn.</p>
-				<p><a href="#">choose!</a></p>
+				<p><a href="#" class="blk-bttn">select lesson</a></p>
 			</section>
 			
 			<section class="col-sm-12 col-md-6 col-lg-3">
-				<header id="two-day" class="lesson-images text-white">
+				<header id="two-day" class="lesson-images text-white shadow-pop-tr">
 					<h3>2 DAY PROGRESSIVE LESSON - $115</h3>
 					<p>- 2 x 4 hour surf safari (from pick up to drop off)</p>
 				</header>
 				<p>For people looking to progress their surfing very quickly.</p>
 				<p>Improve stance, Pop up technique and introduce paddling. Improve consistency and length of ride. Focus on weight distribution how to slow and speed tup.</p>
-				<p><a href="#">choose!</a></p>
+				<p><a href="#" class="blk-bttn">select lesson</a></p>
 			</section>
 		
 			<section class="col-sm-12 col-md-6 col-lg-3">
-				<header id="half-day" class="lesson-images text-white">
+				<header id="half-day" class="lesson-images text-white shadow-pop-tr">
 					<h3>1/2 day learn to surf adventure - $65</h3>
-					<p>- 1 x 4 hour Surf Safari (From pick up to drop off)</p>
+					<p>- 1 x 4 hour Surf Safari (from pick up to drop off)</p>
 				</header>
 				<p>Introduction to surfing. Teaching all the necessary steps to get you up and surfing. Our Instructors use hands on teaching techniques to get you standing very quickly.</p>
-				<p><a href="#">choose!</a></p>
+				<p><a href="#" class="blk-bttn">select lesson</a></p>
 			</section>
 		</div>
 	</div>
@@ -121,21 +120,25 @@
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- I need help with this -->
-<div class="wrapper">
-	<div class="row">
-		<form class="col-sm-12 col-lg-6" >
-			<legend>sign up</legend>
-			
-				<div>
-					<lable for="name">name:</lable>
-					<input type="text" name="name" id="name">
-				</div>
-				<div>
-					<lable for="email">email:</lable>
-					<input type="text" name="email" id="email">
-				</div>
-				<div>
-					<label>lesson</label>
+	
+
+	<div class="wrapper" id="contact-form">
+		<div class="row">
+		<form class="col-sm-12 col-lg-6 bg-black">
+			<fieldset>
+				<legend>sign up</legend>
+				<div class="row">
+					<div>
+						<label for="name">name:</label>
+						<input type="text" name="name" id="name">
+					</div>
+
+					<div>
+						<label for="email">email:</label>
+						<input type="text" name="email" id="email">
+					</div>
+					<div>
+						<label>lesson</label>
 						<select name="options">
 							<option>5 DAY DELUXE PACKAGE</option>
 							<option>4 DAY EPIC SURF EXPERIENCE</option>
@@ -143,14 +146,19 @@
 							<option>2 DAY PROGRESSIVE LESSON</option>
 							<option>1/2 DAY LEARN TO SURF ADVENTURE</option>
 						</select>
+					</div>
 				</div>
-				<div>
-					<label>message</label>
-					<textarea name="message"></textarea>
-				</div>
+					<textarea name="message">message</textarea>
+
+
+					<p><a href="#" class="white-bttn">submit</a></p>
+				
+			</fieldset>
 		</form>
+	
+	
 		
-		<div class="col-sm-12 col-lg-6 text-white" id="included-image"> <!-- positioning -->
+		<div class="wrapper col-sm-12 col-lg-6 text-white" id="included-image"> <!-- positioning -->
 			<header>
 				<h2>what's included</h2>
 			</header>
@@ -158,8 +166,8 @@
 			<p>With each lesson we cover Ocean safety. This ensures that at the end of your experience you have knowledge to know where is a safe area to surf or swim for the future.</p>
 			<p>You will also receive half price dinner voucher and complimentary drink at a local restaurant with each lesson.</p>
 		</div>
+		</div>
 	</div>
-</div>	
 	
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -180,7 +188,7 @@
 				<img src="img/advanced-icon.jpg" alt="" class="img-responsive">
 			</div>
 		
-		<div class="col-sm-12 col-lg-10">
+		<div class="col-sm-12 centered-text">
 			<p>We have over 80 fun safe soft surfboards and intermediate to advanced boards that will help you to learn faster and catch lots of waves. Our lessons are specifically designed to teach you to surf at your own pace in a relaxed environment to build further self-confidence so you can continue in the sport of surfing and feel confident in the water.</p>
 		</div>
 		</div>
@@ -196,13 +204,13 @@
 		<div class="wrapper">
 			<div class="row">
 				<header class="col-sm-12 col-md-6 col-lg-6">
-					<h2>a learn-to-surf journey of a lifetime!</h2>
-					<p><a href="#lessons">sign up now</a></p>
+					<h2>a learn-to-surf<br> journey of a<br> lifetime!</h2>
+					<p><a href="#lessons" class="white-bttn">sign up now</a></p>
 				</header>
 				<div class="col-sm-12 col-md-6 col-lg-6">
 					<p>In Manu Bay as we set off on a half day adventure. Sit back and relax after we pick you up from your accommodation and begin the search.</p>
 					<p>As a mobile surf school we are dedicated to finding the best, fun and safest waves daily. We have over 10 different locations at our fingertips, ready for the ultimate learn to surf experience. Our beaches are the best in New Zealand, you will learn in waist deep water with easy to ride small waves.</p>
-					<p><a href="https://www.worldsurfaris.com/stoked/11-ways-prepare-your-next-surf-trip" target="_blank">get ready for your next adventure!</a></p>
+					<p><a href="https://www.worldsurfaris.com/stoked/11-ways-prepare-your-next-surf-trip" target="_blank" id="underlined">get ready for your next adventure!</a></p>
 				</div>
 			</div>
 		</div>
@@ -223,11 +231,13 @@
 				<p>All instructors have vast knowledge of the local area and will only conduct lessons in surf conditions in waist deep water with easy spilling broken waves perfect for progressing.</p>
 			</div>
 		
-			<div class="col-sm-6 col-lg-2">
-				<img src="img/accreditation-icon.jpg" alt="" class="img-responsive">
+			<div class="col-sm-6 col-lg-2 bg-black centered-text element" >
+				<img src="img/accreditation-icon.png" alt="" class="img-responsive flip-vertical-fwd">
+				<p>Surfing New Zealand Coaching Accreditation</p>
 			</div>
-			<div class="col-sm-6 col-lg-2">
-				<img src="img/certification-icon.jpg" alt="" class="img-responsive">
+			<div class="col-sm-6 col-lg-2 bg-black centered-text element">
+				<img src="img/certification-icon.png" alt="" class="img-responsive flip-vertical-fwd">
+				<p>APOLA Beach lifeguard certification</p>
 			</div>
 		
 		</div>
@@ -237,7 +247,7 @@
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------->
 	
-<footer id="contact" class="bg-black">
+<footer class="bg-black">
 	<div class="wrapper">
 		<div class="row">
 			<div class="col-sm-6 col-lg-2">
@@ -247,10 +257,10 @@
 				<p>5B Whaanga Rd,</p>
 				<p>Raglan 3297</p>
 				<p>New Zealand</p>
-				<p>+64 7-825 7873</p>
+				<p>+647-825 7873</p>
 				
-				<i class="fab fa-facebook"><a href="http://www.facebook.com" target="_blank"><span>facebook</span></a></i>	
-				<i class="fab fa-instagram"><a href="http://www.instagram.com" target="_blank"><span>instagram.com</span></a></i>
+				<i class="fab fa-facebook fa-2x"><a href="http://www.facebook.com" target="_blank"><span>facebook</span></a></i>	
+				<i class="fab fa-instagram fa-2x"><a href="http://www.instagram.com" target="_blank"><span>instagram.com</span></a></i>
 			</div>
 			
 			
@@ -258,7 +268,7 @@
 					<ul>
 						<li><a href="#lessons">our lessons</a></li>
 						<li><a href="#about">about</a></li>
-						<li><a href="#">contact</a></li>
+						<li><a href="#contact-form">contact</a></li>
 					</ul>
 				</nav>
 			
